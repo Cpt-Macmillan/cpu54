@@ -1,0 +1,7 @@
+Running: xsim.dir/cpu54_tb1_behav/xsimk.exe -simmode gui -wdb cpu54_tb1_behav.wdb -simrunnum 0 -socket 62952
+Design successfully loaded
+Design Loading Memory Usage: 9768 KB (Peak: 9768 KB)
+Design Loading CPU Usage: 77 ms
+Simulation completed
+Simulation Memory Usage: 10944 KB (Peak: 10944 KB)
+Simulation CPU Usage: 124 ms

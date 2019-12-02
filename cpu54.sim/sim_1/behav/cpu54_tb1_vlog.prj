@@ -1,0 +1,38 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  "D:/shuZiLuoJi/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv" --include "../../../cpu54.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../cpu54.srcs/sources_1/imports/cpu54/Register_Files.v" --include "../../../cpu54.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../cpu54.srcs/sources_1/imports/cpu54/PC_Joint.v" --include "../../../cpu54.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../cpu54.srcs/sources_1/imports/cpu54/PC.v" --include "../../../cpu54.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../cpu54.srcs/sources_1/imports/cpu54/NPC.v" --include "../../../cpu54.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../cpu54.srcs/sources_1/imports/cpu54/MUX_RF_Write.v" --include "../../../cpu54.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../cpu54.srcs/sources_1/imports/cpu54/MUX_RF_rd.v" --include "../../../cpu54.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../cpu54.srcs/sources_1/imports/cpu54/MUX_PC.v" --include "../../../cpu54.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../cpu54.srcs/sources_1/imports/cpu54/MUX_LO.v" --include "../../../cpu54.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../cpu54.srcs/sources_1/imports/cpu54/MUX_HI.v" --include "../../../cpu54.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../cpu54.srcs/sources_1/imports/cpu54/MUX_CP0_exc.v" --include "../../../cpu54.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../cpu54.srcs/sources_1/imports/cpu54/MUX_ALU_B.v" --include "../../../cpu54.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../cpu54.srcs/sources_1/imports/cpu54/MUX_ALU_A.v" --include "../../../cpu54.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../cpu54.srcs/sources_1/imports/cpu54/HI_LO.v" --include "../../../cpu54.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../cpu54.srcs/sources_1/imports/cpu54/Extend_8_32.v" --include "../../../cpu54.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../cpu54.srcs/sources_1/imports/cpu54/Extend_16_32.v" --include "../../../cpu54.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../cpu54.srcs/sources_1/imports/cpu54/Divider_Ins.v" --include "../../../cpu54.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../cpu54.srcs/sources_1/imports/cpu54/CP0.v" --include "../../../cpu54.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../cpu54.srcs/sources_1/imports/cpu54/Control_Unit.v" --include "../../../cpu54.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../cpu54.srcs/sources_1/imports/cpu54/ALU.v" --include "../../../cpu54.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../cpu54.srcs/sources_1/imports/cpu54/5_32_extend.v" --include "../../../cpu54.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../cpu54.srcs/sources_1/imports/cpu54/16_32_extend.v" --include "../../../cpu54.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog dist_mem_gen_v8_0_10  "../../../cpu54.ip_user_files/ipstatic/dist_mem_gen_v8_0_10/simulation/dist_mem_gen_v8_0.v" --include "../../../cpu54.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../cpu54.srcs/sources_1/ip/dist_mem_gen_0/sim/dist_mem_gen_0.v" --include "../../../cpu54.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../cpu54.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" --include "../../../cpu54.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../cpu54.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v" --include "../../../cpu54.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../cpu54.srcs/sources_1/imports/cpu54/seg7x16.v" --include "../../../cpu54.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../cpu54.srcs/sources_1/imports/cpu54/DMEM_temp.v" --include "../../../cpu54.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../cpu54.srcs/sources_1/imports/cpu54/cpu.v" --include "../../../cpu54.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../cpu54.srcs/sources_1/imports/cpu54/sccomp_dataflow.v" --include "../../../cpu54.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../cpu54.srcs/sim_1/new/cpu54_tb.v" --include "../../../cpu54.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

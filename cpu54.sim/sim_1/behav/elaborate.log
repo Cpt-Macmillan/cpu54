@@ -1,0 +1,45 @@
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/shuZiLuoJi/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 919a62ae869541cbbec1f08d88bdbb7a --debug typical --relax --mt 2 -L xil_defaultlib -L xpm -L dist_mem_gen_v8_0_10 -L unisims_ver -L unimacro_ver -L secureip --snapshot cpu54_tb1_behav xil_defaultlib.cpu54_tb1 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 5 for port scope [D:/ComputerOrganization/cpu54/cpu54.srcs/sources_1/imports/cpu54/sccomp_dataflow.v:51]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=15.62...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_0_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.PC_plus4
+Compiling module xil_defaultlib.Divider_Ins
+Compiling module xil_defaultlib.Control_Unit
+Compiling module xil_defaultlib.MUX_RF_rd
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.Extend_5_32
+Compiling module xil_defaultlib.Extend_16_32
+Compiling module xil_defaultlib.MUX_ALU_A
+Compiling module xil_defaultlib.MUX_ALU_B
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.PC_Joint
+Compiling module xil_defaultlib.MUX_PC
+Compiling module xil_defaultlib.Extend_8_32
+Compiling module xil_defaultlib.Extend_HW16_32
+Compiling module xil_defaultlib.MUX_RF_Write
+Compiling module xil_defaultlib.MUX_HI
+Compiling module xil_defaultlib.MUX_LO
+Compiling module xil_defaultlib.HI_LO
+Compiling module xil_defaultlib.MUX_CP0_exc
+Compiling module xil_defaultlib.CP0
+Compiling module xil_defaultlib.cpu
+Compiling module xil_defaultlib.DMEM_temp
+Compiling module dist_mem_gen_v8_0_10.dist_mem_gen_v8_0_10(C_FAMILY="a...
+Compiling module xil_defaultlib.dist_mem_gen_0
+Compiling module xil_defaultlib.seg7x16
+Compiling module xil_defaultlib.sccomp_dataflow
+Compiling module xil_defaultlib.cpu54_tb1
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot cpu54_tb1_behav
